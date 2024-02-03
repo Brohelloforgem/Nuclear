@@ -33,7 +33,6 @@ $$ | \$$ |\$$$$$$  |\$$$$$$$\ $$ |\$$$$$$$\ \$$$$$$$ |$$ |
 
 
 if config_selfbot.token == "":
-   config_selfbot.token = input(f"Token: ")
 
 if config_selfbot.lang == "":
    print("""Language Choice / Choix de la langue:
